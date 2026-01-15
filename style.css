@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  align-items: center;
+}
+dl,ol,ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.logo {
+  color: #2aa77b;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  cursor: pointer;
+}
+
+.nav-right ul {
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+.hero {
+  height: 100vh;
+  background-image: url("https://dynamic-media.tacdn.com/media/photo-o/31/e4/6e/9f/caption.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.hero h1 {
+  color: white;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.hero p {
+  color: white;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.text {
+  font-size: 15px;
+  color: black;
+}
+.title {
+  font-size: 14px;
+  font-weight: black;
+}
+
+.button {
+  background: white;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  width: 90%;          /* ⬅️ au lieu de 850px */
+  max-width: 850px;
+  margin: auto;
+  padding: 10px;
+  flex-wrap: wrap;    
+}
+
+.item {
+  flex: 1;
+  text-align: left;
+  padding: 10px 20px;
+}
+
+.item span {
+  display: block;
+}
+
+.item .title {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.item .text {
+  color: #777;
+  font-size: 15px;
+}
+
+.line {
+  color: #ddd;
+}
+
+.button-se {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #0f766e;
+  border: none;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.end-left {
+  position: absolute;
+  right: 0px;
+  top: 538px;
+  color: white;
+  background: #00000080;
+  padding: 13px;
+}
+.book{
+  display: flex;
+  justify-content: center;
+  margin: 4rem 0px;
+}
+.icons{
+display: flex;
+justify-content: space-around;
+text-align: center;
+
+}
+.login{
+  display: flex;
+  align-items: center;
+  background-color: #E6E6FA;
+  width: 70%;
+  margin: auto;
+
+}
+.loginn{
+  border-radius: 16px;
+  padding: 10px 10px;
+  color: white;
+  background-color: black;
+  display: flex;
+  width: 80%;
+  height: auto;
+  margin: auto;
+  justify-content: center;
+
+}
+
+
+
+
+
+
